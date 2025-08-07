@@ -138,4 +138,6 @@ if __name__ == '__main__':
     print("Starting Flask application...")
     print(f"Current working directory: {os.getcwd()}")
     print(f".env file exists: {os.path.exists('.env')}")
-    app.run(debug=True)
+    # Use the PORT environment variable for Render, default to 5000 for local development
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port, debug=False)
