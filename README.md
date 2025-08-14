@@ -4,6 +4,12 @@ A multilingual AI-powered agricultural assistant that helps farmers with crop ma
 
 ## Features
 
+
+
+
+
+
+
 - **Multilingual Support**: Available in English, Hindi, Tamil, Telugu, and Bengali
 - **AI-Powered Assistance**: Powered by Google's Gemini API
 - **Responsive Design**: Works on desktop and mobile devices
